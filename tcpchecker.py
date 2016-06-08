@@ -13,7 +13,7 @@ class MainSock():
 
 
     def __call__(self):
-        '''Вызов экземпляра делает его сокетом атрибуты'''
+        '''Вызов экземпляра делает его сокетом атрибут connector'''
         self.connector = socket.socket()
 
 
