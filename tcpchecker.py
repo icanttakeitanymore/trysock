@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # Программа простой проверки соединения.
 import socket
-import re
 
 class MainSock():
     def __init__(self,address,port):
@@ -25,7 +24,7 @@ class MainSock():
         except socket.error as err:
             return 'Connection to {0}:{1} failed!'.format(self.address,self.port)
         else:
-            return 'Connection to {0}:{1} succesfully !'.format(self.address,self.port) 
+            return 'Connection to {0}:{1} succesfully!'.format(self.address,self.port) 
 
 if __name__ == '__main__':
     from optparse import OptionParser
