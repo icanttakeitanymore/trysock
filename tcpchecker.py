@@ -3,6 +3,8 @@
 import socket
 import re
 import sys
+
+
 class MainSock():
     def __init__(self,address,port):
         '''Пишем адресс и порт в атрибуты экземпляра'''
